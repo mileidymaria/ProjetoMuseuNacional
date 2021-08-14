@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div id="container"> <!-- INÍCIO DO CONTAINER -->
+		
+		<header>
+			<div id="logo">
+					<h1><a href="index.html">Museu Nacional</a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="exposicoes.html">Exposições</a></li>
+					<li><a href="pesquisa.html">Pesquisa</a></li>
+					<li><a href="acervo.html">Acervo</a></li>
+					<li><a href="videos.html">Vídeos</a></li>
+					<li><a href="fotos.html">Fotos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="main">
+			
+			<div id="content">
+				<section id="capa">
+					<img src="imagens/museu.png" alt="Imagem de Descricao do Museu">
+				</section>		
+
+				<section id="posts">
+					<article id="video">
+						<h3>Conheça o museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/AzN2D13EE2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>						
+					</article>
+
+					<article id="mapa">
+						<h3>Encontre o museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881703.6058408385!2d-44.347000122070334!3d-22.905905963507976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1628796879465!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>						
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li><a href="#">Exposicao A</a></li>
+							<li><a href="#">Exposicao B</a></li>
+							<li><a href="#">Exposicao C</a></li>
+							<li><a href="#">Exposicao D</a></li>
+							<li><a href="#">Exposicao E</a></li>
+							<li><a href="#"><strong>Veja mais(70)</strong></a></li>
+						</ul>
+					</article>					
+
+					<article id="historia">
+						<h3>200 anos de história</h3>		
+						<p>lorem ipsum dolor sit amet consectetur adipiscing elit ligula porta feugiat metus proin nam leo ornare purus neque euismod est fames magna convallis odio dignissim faucibus auctor facilisi luctus libero ac lobortis vel torquent placerat etiam tellus fermentum parturient congue nulla hac tempus dis nunc sem venenatis litora augue donec aliquam accumsan cras gravida nec iaculis ullamcorper diam condimentum lectus</p>
+						<a href="#"><strong>Veja mais</strong></a>		
+					</article>
+				</section>
+
+
+			</div>
+
+			<aside>
+				<section id="depoimento">
+					<img src="imagens/depoimento.png">
+				</section>
+				
+				<section id="visita">
+					<h4>Faça uma vista</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+							<label for="data">Data</label>
+							<input class="campo" type="date" id="data">
+
+							<label for="qtde-pessoas">Pessoas</label>
+							<input class="campo numero" type="number" id="qtde-pessoas" value="1">							
+						</fieldset>
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+					</form>
+				</section>
+
+				<section id="galeria">
+					<h4>Galeria de fotos</h4>
+					<a href="">
+						<img src="imagens/imagem1.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem2.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem3.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem4.jpg" height="93" width="93">
+					</a>					
+				</section>
+			</aside>			
+		</div>
+	</div> <!-- INÍCIO DO CONTAINER -->
+	<footer>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="exposicoes.html">Exposições</a></li>
+			<li><a href="pesquisa.html">Pesquisa</a></li>
+			<li><a href="acervo.html">Acervo</a></li>
+			<li><a href="videos.html">Vídeos</a></li>
+			<li><a href="fotos.html">Fotos</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>	
+		&copy; Todos os direitos reservados | Por: Mileidy Maria Ribeiro Elias Bento
+	</footer>
+</body>
+</html>
